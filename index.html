@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV shows</title>
+</head>
+
+<body>
+    <h1>TV shows</h1>
+
+    <div id="seriesList">
+    </div>
+
+    <form id="addSeriesForm">
+        <h3>Add a new series:</h3>
+        <input type="text" id="name" placeholder="Name">
+        <input type="number" id="year" placeholder="Year">
+        <input type="text" id="rating" placeholder="Rating">
+        <input type="text" id="genre" placeholder="Genre">
+        <button type="submit">Add Series</button>
+    </form>
+
+    <form id="deleteSeriesForm">
+        <h3>Delete a series:</h3>
+        <input type="text" id="deleteId" placeholder="ID to Delete">
+        <button type="submit">Delete Series</button>
+    </form>
+
+    <h3>Show all series ordered by year of release:</h3>
+    <button id="getSeriesBtn">Get Series</button>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+This is a service that manages the user's list of TV series.
+
+Example of a database entry:
+{
+  "_id": {
+    "$oid": "65e732b19870b8cd802aa0e2"
+  },
+  "name": "The Big Bang Theory",
+  "year": 2007,
+  "rating": "16+",
+  "genre": "comedy"
+}
+
+Using this service, users can add new TV series, delete TV series by id and get a list of TV series sorted by year of release.
